@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SportsIntent"
+    android:background="@color/background"
+
+
+    >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="15dp"
+            android:layout_weight="1"
+            android:layout_margin="20dp">
+            <ViewFlipper
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/flipperid"
+            android:layout_centerInParent="true"
+            android:flipInterval="3000"
+            android:inAnimation="@android:anim/slide_in_left"
+                android:outAnimation="@android:anim/slide_out_right"
+            >
+            <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView1"
+            android:scaleType="centerCrop"
+            />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView2"
+                android:scaleType="centerCrop"
+                />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imageView3"
+                    android:scaleType="centerCrop"
+                    />
+            </ViewFlipper>
+        </androidx.cardview.widget.CardView>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@drawable/list_item_color"
+    android:layout_marginLeft="20dp"
+    android:layout_marginBottom="20dp"
+    android:layout_marginRight="20dp"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+android:layout_margin="20dp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/textView1"
+        />
+</LinearLayout>
+</ScrollView>
+    </LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Reservation"
+        android:icon="@drawable/booking">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_hotel"
+                    android:title="Hotels" />
+                <item
+                    android:id="@+id/nav_rest"
+                      android:title="Vehicles" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Contact Us">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_send"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Mail Us" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Share App">
+
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+
+            </group>
+
+        </menu>
+    </item>
+    <item android:title="Exit">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item android:id="@+id/exit"
+                android:title="Exit App"
+                android:icon="@drawable/exit"
+                />
+            </group>
+        </menu>
+    </item>
+</menu>

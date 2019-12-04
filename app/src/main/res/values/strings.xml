@@ -1,0 +1,99 @@
+<resources>
+    <!-- Name of app and names in tabs -->
+    <string name="app_name">KashmirTourGuide</string>
+    <string name="parks">Parks</string>
+    <string name="must_visit">Must Visit</string>
+    <string name="sports">Sports</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="food">Food</string>
+
+    <!-- names and details of restaurants -->
+    <string name="lalit_grand_palace">LaLiT Grand Palace</string>
+    <string name="two_wheelers">Two Wheelers</string>
+    <string name="four_wheelers">Four wheelers</string>
+    <string name="lalit_grand_palace_address">Gupkar Road, Srinagar 190001, India\n\nPhone: 0194 250 1001</string>
+    <string name="jamal_resorts">Jamal Resorts</string>
+    <string name="jamal_resorts_address">JCI Complex, Ishber, Nishat, Srinagar, Jammu and Kashmir 191121\n\nPhone: 0194 246 4363</string>
+    <string name="stream">Stream</string>
+    <string name="stream_address"> Boulevard Road, Opp.Ghat No. 2, Dal Gate, Srinagar, Jammu and Kashmir 190001\n\nPhone: 096222 10228</string>
+    <string name="ahdoos">Ahdoos</string>
+    <string name="ahdoos_address">Residency road, Regal Chowk, Raj Bagh, Srinagar, Jammu and Kashmir 190001\n\nPhone: 0194 247 2593</string>
+    <string name="mughal_darbar">Mughal Darbar</string>
+    <string name="mughal_darbar_address">Residency Road Ground Floor Only Srinagar Jammu and Kashmir, 190001\n\nPhone: 0194 248 0007</string>
+    <string name="cloves_restaurant">Cloves Restaurant</string>
+    <string name="cloves_restaurant_address">The Khyber Himalayan Resort And Spa, Hotel Khyber Rd, Gulmarg, Jammu and Kashmir 193403\n\nPhone: 099716 81045</string>
+    <string name="vivanta">Vivanta by Taj </string>
+    <string name="vivanta_address">Kralsangri, Brein, Srinagar, Jammu and Kashmir 191121\n\nPhone: 0194 246 1111</string>
+    <string name="the_orchard">The Orchard Retreat And Spa</string>
+    <string name="the_orchard_address">Jammu and Kashmir, Zukura, Naseem Bagh, Srinagar, 190006\n\nPhone: 099068 82200</string>
+
+    <!-- names and details of cuisines -->
+    <string name="meat_balls">Meat Balls(Rista)</string>
+    <string name="meat_balls_details">Rista is a famous dish of kashmiri wazwan. It is prepared in red chilly powder and other spices. Rista is made with mutton meat balls simmered in a red spicy gravy.</string>
+    <string name="barbecues">Barbecue(Seekh Tujj)</string>
+    <string name="barbecue_details"> Two Wheeler Vehicles ‘Barbecue’ is a special non-vegetarian recipe that is prepared by smoking or baking chopped meat pieces over slow-burning wood or charcoal. Popularly known as seek-e-tujj in Kashmir.</string>
+    <string name="gushtaba">Gushtaba</string>
+    <string name="gushtaba_details">Gushtaba is a dish of minced mutton balls cooked in curd and spices. This  traditional Kashmiri dish is prepared in important ceremonies and functions.</string>
+
+    <string name="intent1_details">‘Barbecue’ is a special non-vegetarian recipe that is prepared by smoking or baking chopped meat pieces over slow-burning wood or charcoal. Popularly known as seek-e-tujj in Kashmir.</string>
+    <string name="haakh">Haakh</string>
+    <string name="haakh_details">It is a staple Kashmiri dish and a cultural identification in cooking Kashmiri Cuisine.It is known for its bitter sharp taste. These greens are simply cooked, yet taste heavenly. </string>
+    <string name="kebab">Kebab(Seekh Kabab)</string>
+    <string name="kebab_details">Kashmiri kebab is a popular dish in Kashmir. It is eaten as a snack or meal with rice or bread made of wheat. Its aromatic flavor and delicious taste makes it a favorite the world over.</string>
+    <string name="noon_chai">Salt Tea(Noon Chai)</string>
+    <string name="noon_chai_details">Noon chai, also called sheer chai, gulabi chai, Kashmiri tea or pink tea, is a traditional tea beverage from Kashmir made with salt, milk, baking soda and special tea leaves. </string>
+    <string name="rogan_josh">Rogan josh</string>
+    <string name="rogan_josh_details">Mutton Rogan Josh is scrumptious delicacy from the Kashmiri cuisine distinguished by its thick, aromatic, flavourful red sauce and tender meat.</string>
+    <string name="czot">Bakers Bread(Czot)</string>
+    <string name="czot_details">Czot is a medium sized everyday bread. Everyone has it for breakfast with butter or jam. It is prepared in tandoor (hot oven). It is golden on the upper side and white from below.</string>
+    <string name="yakhni">Yakhni</string>
+    <string name="yakhni_details">Kashmiri Yakhni is a yoghurt based gravy. It also contains saffron. The silky smooth curry with falling-off-the-bone meat is an absolute treat.</string>
+
+    <!-- names and details of parks -->
+    <string name="dachigam">Dachigam National Park</string>
+    <string name="dachigam_address">Near Harwan Mughal Garden, Dachigam Road, Srinagar, Jammu and Kashmir 191202</string>
+    <string name="nehru_park">Nehru Park</string>
+    <string name="nehru_park_address">Boulevard Road, Karapura, Srinagar, Jammu and Kashmir 190001</string>
+    <string name="wular_park">Wular Vantage Park</string>
+    <string name="wular_park_address">Bandipora - Srinagar Road, Bandipora, Garoora, Jammu and Kashmir 193502</string>
+    <string name="nishat">Nishat</string>
+    <string name="nishat_address">Nishat Bagh, Srinagar, Jammu and Kashmir 190001</string>
+    <string name="shalimar">Shalimar</string>
+    <string name="shalimar_address">Shalimar, Rainawari, Srinagar, Jammu and Kashmir 190025</string>
+
+    <!-- names and details of must visit places -->
+    <string name="srinagar">Srinagar</string>
+    <string name="srinagar_details">Srinagar is undoubtedly one of the most beautiful places to visit in Kashmir. From boating to trekking, bird watching to water skiing, Srinagar place has it all.</string>
+    <string name="gulmarg">Gulmarg</string>
+    <string name="gulmarg_details">Famously known as the ‘Meadow of Flowers’, Gulmarg is a treat to the eyes. Mountain Biking, trekking, Skiing and Gondola rides are some of the things to do here.</string>
+    <string name="sonamarg">Sonamarg</string>
+    <string name="sonamarg_details">Sonamarg is known as the ‘Meadow of Gold’. An endless stream of flowers and trekking routes are its attractions. Sonamarg is known for its mesmerizing aura and breathtaking views.</string>
+    <string name="leh">Leh</string>
+    <string name="leh_details"> Clad in the beauty and love of nature, Leh offers breathtaking views. The lofty mountains, the alpine lakes, and the quaint settings leave no visitor disappointed.</string>
+    <string name="kargil">Kargil</string>
+    <string name="kargil_details">Brave heart Kargil is situated at India-Pakistan border at an altitude of approximately 2800m above sea level. Connected to the Zojila Pass, Kargil holds important place in the history of India.</string>
+    <string name="pahalgam">Pahalgam</string>
+    <string name="pahalgam_details">Tranquility and serenity are the other names of Phalagam! The green meadows and the lofty mountains of this tiny town is known to suck out all the stress of every visitor.</string>
+    <string name="hemis">Hemis</string>
+    <string name="hemis_address">An unexplored destinations, situated on the western bank of River Indus, this small village is famed for its prestigious monastery and a national park, better known as Hemis National Park.</string>
+    <string name="anantnag">Anantnag</string>
+    <string name="anantnag_address">Anantnag is rightly the paradise in paradise! Strategically positioned and organized, adorned with flourishing gardens and freshwater springs, Anantnag is a divine destination.</string>
+    <string name="pangong">Pangong Lake</string>
+    <string name="pangong_lake">Pangong lake is famous for its azure water and its picture perfect surroundings. The marshy area in the vicinity of the lake is a shelter for many indigenous and migratory birds.</string>
+    <string name="pulwama">Pulwama</string>
+    <string name="pulwama_details">Lose yourself in the beauty of sprawling saffron fields and the rich culture that dwells here. Pulwama gives quite a large number of places for sightseeing.</string>
+    <string name="kupwara">Kupwara</string>
+    <string name="kupwara_details">Noted for natural beauty and charm, Kupwara has lush meadows, alpine mountains and the gushing clear water. Visiting Lolab valley and Bungus valley are some of the best things to do here.</string>
+    <string name="baramulla">Baramulla</string>
+    <string name="baramulla_details">Reckoned to be the Gateway of Kashmir, Baramulla is generously blessed with natural endowments. Where Gulmarg is an idyllic skiing resort, there Khilanmarg is a flower-spangled wide valley.</string>
+
+    <!-- names and details of sports -->
+    <string name="golf">Golf</string>
+    <string name="golf_details">Kashmir offers a unique opportunity to play golf all through the summer where the wind whispers through enormous trees of chinar and stately pine in such heavenly temperatures.</string>
+    <string name="skiing">Skiing</string>
+    <string name="skiing_details">One of the major attractions for adventure loving tourists is skiing in the Himalayas. Gulmarg\'s atmosphere can generally be identified with 1940\'s and 50\'s European skiing.</string>
+    <string name="water_sports">Water Sports</string>
+    <string name="water_sports_details">Kashmir\'s natural advantages are its mountains, lakes and rivers. But more than just a means of pleasure, the waterways are a way of discovering new leisure sports.</string>
+    <string name="cricket">Cricket</string>
+    <string name="cricket_details">Playing Cricket in kashmir is a treat because of the soothing weather. You can find people playing cricket in every part of the valley at almost any time of the year.</string>
+</resources>

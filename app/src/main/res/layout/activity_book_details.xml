@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/menuTv"
+            android:layout_width="match_parent"
+            android:layout_marginTop="2dp"
+            android:layout_height="51dp"
+            android:text="Two wheelers"
+            android:textColor="#43596f"
+            android:textSize="40sp"
+            android:textAlignment="center"
+            />
+
+        <ScrollView
+
+            android:id="@+id/myScrollView"
+            android:layout_width="wrap_content"
+            android:layout_height="350dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="30dp"
+            android:layout_weight="1">
+
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <androidx.cardview.widget.CardView
+
+                    android:id="@+id/cv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_row="1"
+                    android:layout_column="0">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:id="@+id/scooty_photo"
+                            android:layout_width="60dp"
+                            android:layout_height="65dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginRight="16dp"
+                            android:src="@drawable/intent1" />
+
+                        <TextView
+                            android:id="@+id/scooty_textView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_toRightOf="@+id/scooty_photo"
+                            android:text="Scooty"
+                            android:textSize="25sp" />
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/scooty_price"
+                            android:textColor="@color/colorAccent"
+                            android:text="1000 Rs per day"
+                            android:layout_toRightOf="@id/scooty_photo"
+                            android:layout_below="@id/scooty_textView"
+                            />
+
+                        <Button
+                            android:id="@+id/scooty_button_rm"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignBaseline="@+id/scooty_button"
+                            android:layout_marginLeft="0dp"
+
+                            android:layout_toLeftOf="@id/scooty_button"
+                            android:background="@drawable/ic_remove"
+                            android:gravity="center"
+                            android:onClick="rmv_from_list"
+                            android:textColor="#fff"
+                            android:textSize="15sp" />
+                        <TextView
+                            android:id="@+id/txt"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="-1dp"
+                            android:layout_marginRight="35dp"/>
+                        <Button
+                            android:id="@+id/scooty_button"
+                            android:layout_width="30dp"
+                            android:gravity="center"
+                            android:textColor="#fff"
+                            android:textSize="10sp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginLeft="40dp"
+                            android:background="@drawable/ic_add"
+                            android:onClick="add_to_list"
+                            />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+
+                    android:id="@+id/cv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="0">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:id="@+id/street_photo"
+                            android:layout_width="60dp"
+                            android:layout_height="65dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginRight="16dp"
+                            android:src="@drawable/intent2" />
+
+                        <TextView
+                            android:id="@+id/street_textView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_toRightOf="@+id/street_photo"
+                            android:text="Street Bikes"
+                            android:textSize="25sp" />
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/street_price"
+                            android:textColor="@color/colorAccent"
+                            android:text="1500 Rs per day"
+                            android:layout_toRightOf="@id/street_photo"
+                            android:layout_below="@id/street_textView"
+                            />
+
+                        <Button
+                            android:id="@+id/street_button_rm"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignBaseline="@+id/street_button"
+                            android:layout_marginLeft="0dp"
+
+                            android:layout_toLeftOf="@id/street_button"
+                            android:background="@drawable/ic_remove"
+                            android:gravity="center"
+                            android:onClick="rmv_from_list"
+                            android:textColor="#fff"
+                            android:textSize="15sp" />
+                        <TextView
+                            android:id="@+id/txt1"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="-1dp"
+                            android:layout_marginRight="35dp"/>
+                        <Button
+                            android:id="@+id/street_button"
+                            android:layout_width="30dp"
+                            android:gravity="center"
+                            android:textColor="#fff"
+                            android:textSize="10sp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginLeft="40dp"
+                            android:background="@drawable/ic_add"
+                            android:onClick="add_to_list"
+                            />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+
+                    android:id="@+id/cv3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_row="2"
+                    android:layout_column="0">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:id="@+id/tb_photo"
+                            android:layout_width="60dp"
+                            android:layout_height="65dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginRight="16dp"
+                            android:src="@drawable/intent3" />
+
+                        <TextView
+                            android:id="@+id/tb_textView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_toRightOf="@+id/tb_photo"
+                            android:text="Touring Bikes"
+                            android:textSize="25sp" />
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tb_price"
+                            android:textColor="@color/colorAccent"
+                            android:text="2000 Rs per day"
+                            android:layout_toRightOf="@id/tb_photo"
+                            android:layout_below="@id/tb_textView"
+                            />
+
+                        <Button
+                            android:id="@+id/tb_button_rm"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignBaseline="@+id/tb_button"
+                            android:layout_marginLeft="0dp"
+
+                            android:layout_toLeftOf="@id/tb_button"
+                            android:background="@drawable/ic_remove"
+                            android:gravity="center"
+                            android:onClick="rmv_from_list"
+                            android:textColor="#fff"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/txt3"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_alignTop="@+id/tb_button_rm"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="-1dp"
+                            android:layout_marginRight="35dp"/>
+                        <Button
+                            android:id="@+id/tb_button"
+                            android:layout_width="30dp"
+                            android:gravity="center"
+                            android:textColor="#fff"
+                            android:textSize="10sp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginLeft="40dp"
+                            android:background="@drawable/ic_add"
+                            android:onClick="add_to_list"
+                            />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+
+                <androidx.cardview.widget.CardView
+
+                    android:id="@+id/cv4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_row="3"
+                    android:layout_column="0"/>
+
+
+                <androidx.cardview.widget.CardView
+
+                    android:id="@+id/cv5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_row="5"
+                    android:layout_column="0">
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+
+                    android:id="@+id/cv6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_row="6"
+                    android:layout_column="0"/>
+
+
+            </GridLayout>
+
+
+        </ScrollView>
+
+
+        <Button
+            android:id="@+id/order_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ea7a66"
+            android:text="  Book Order"
+            android:onClick="place_order"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+
+</ScrollView>
+
